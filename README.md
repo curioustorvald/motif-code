@@ -29,7 +29,7 @@ Motif Code trades exact columns in words for even words. Text lined up with spac
 
 ![Motif Code showing JavaScript](specimen/usage-javascript.png)
 
-The pictures are drawn by the build from the fonts it has just made, in Syntello (`specimen/Syntello.v1.icls`), the light IntelliJ colour scheme Microtone's code editor follows; the Python is part of this font's own build, the JavaScript and the Motif program are Microtone's.
+The pictures are drawn by the build from the fonts it has just made, in [Syntello colour scheme](https://github.com/curioustorvald/syntello-color-scheme), the light IntelliJ colour scheme Microtone's code editor follows; the Python is part of this font's own build, the JavaScript and the Motif program are Microtone's.
 
 ## Character set
 
