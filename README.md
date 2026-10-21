@@ -88,5 +88,5 @@ The build scripts (`build_dist_package.py`, `specimen.py`, `motiffont/`) are par
 
 ## Versions
 
-- **1.003** (2026-10-22) — a longer hyphen (360 units, was Chivo's 253), so `-=` and `--` no longer read as `.=` and `..`.
+- **1.003** (2026-10-22) — longer dashes: the hyphen 400 units (Chivo's 253), so `-=` and `--` no longer read as `.=` and `..`; the en dash 512 (400); the em dash 640 (600) on a 750-unit cell, like `M` and `W`.
 - **1.002** (2026-10-21) — the first release: Motif Code as Microtone ships it, roman and italic, variable and static.
