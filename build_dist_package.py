@@ -21,6 +21,7 @@ the archive included (every date in it is motif.toml's).
 """
 
 import argparse
+import os
 import shutil
 import sys
 import tomllib
@@ -179,6 +180,10 @@ def main():
     args = ap.parse_args()
     if args.sync:
         sync(Path(args.sync).resolve())
+        # motiffont was imported before the sync replaced it: build in a
+        # fresh interpreter, or the fonts come from the old code.
+        rest = ["--no-images"] if args.no_images else []
+        os.execv(sys.executable, [sys.executable, __file__, *rest])
     cfg = load_config()
     build_fonts(cfg)
     if not args.no_images:

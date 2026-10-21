@@ -88,4 +88,5 @@ The build scripts (`build_dist_package.py`, `specimen.py`, `motiffont/`) are par
 
 ## Versions
 
+- **1.003** (2026-10-22) — a longer hyphen (360 units, was Chivo's 253), so `-=` and `--` no longer read as `.=` and `..`.
 - **1.002** (2026-10-21) — the first release: Motif Code as Microtone ships it, roman and italic, variable and static.
