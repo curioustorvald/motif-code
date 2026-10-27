@@ -88,6 +88,7 @@ The build scripts (`build_dist_package.py`, `specimen.py`, `motiffont/`) are par
 
 ## Versions
 
+- **1.006** (2026-10-28) — `D` given a round bowl, half an ellipse from bar to bar, so it stands apart from the square `O` and the narrow, oval `0`; `Ð` and `Đ` follow it.
 - **1.005** (2026-10-24) — `e`, `5`, `6` and `9` opened like `C`, `G` and `c`, their ends stopping further round the curve, so `6` and `9` stands apart from `8` (nice!), `5` from `S` and `e` from `o`; `G` a little more open; `z` drawn wider in its own cell, as wide as `n` and `x` (Chivo Mono's is narrower), its strokes no heavier.
 - **1.004** (2026-10-23) — `f`, `j` and `t` joins the Team Narrow — they now share the width with `i`, `l` and `I`.
 - **1.003** (2026-10-22) — longer dashes: the hyphen 400 units (Chivo's 253), so `-=` and `--` no longer read as `.=` and `..`; the en dash 512 (400); the em dash 640 (600) on a 750-unit cell, like `M` and `W`.
